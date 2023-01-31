@@ -23,6 +23,7 @@ const assertArraysEqual = (arr1, arr2) => {
   }
 };
 
+//Implement without which will return a subset of a given array, removing unwanted elements.
 const without = (source, itemsToRemove) => {
   let newArr = [];
   for (let i = 0; i < source.length; i++) {
