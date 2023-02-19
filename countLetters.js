@@ -17,6 +17,6 @@ const countLetters = (str) => {
 };
 
 //TEST
-console.log(countLetters("LHL IS COOL"));
+// console.log(countLetters("LHL IS COOL"));
 
 module.exports = countLetters;

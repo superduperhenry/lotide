@@ -19,28 +19,28 @@ const assertObjectsEqual = function (actual, expected) {
 };
 
 //TESTS
-const shirtObject = { color: "red", size: "medium" };
-const anotherShirtObject = { size: "medium", color: "red" };
-const multiColorShirtObject = { colors: ["red", "blue"], size: "medium" };
-const anotherMultiColorShirtObject = {
-  size: "medium",
-  colors: ["red", "blue"],
-};
+// const shirtObject = { color: "red", size: "medium" };
+// const anotherShirtObject = { size: "medium", color: "red" };
+// const multiColorShirtObject = { colors: ["red", "blue"], size: "medium" };
+// const anotherMultiColorShirtObject = {
+//   size: "medium",
+//   colors: ["red", "blue"],
+// };
 
-const longSleeveMultiColorShirtObject = {
-  size: "medium",
-  colors: ["red", "blue"],
-  sleeveLength: "long",
-};
-const longSleeveShirtObject = {
-  size: "medium",
-  colors: "red",
-  sleeveLength: "long",
-};
+// const longSleeveMultiColorShirtObject = {
+//   size: "medium",
+//   colors: ["red", "blue"],
+//   sleeveLength: "long",
+// };
+// const longSleeveShirtObject = {
+//   size: "medium",
+//   colors: "red",
+//   sleeveLength: "long",
+// };
 
-assertObjectsEqual(shirtObject, anotherShirtObject); //expects pass
-assertObjectsEqual(multiColorShirtObject, anotherMultiColorShirtObject); // expect pass
-assertObjectsEqual(longSleeveMultiColorShirtObject, longSleeveShirtObject); // expect fail
-assertObjectsEqual(shirtObject, longSleeveShirtObject); // expect fail
+// assertObjectsEqual(shirtObject, anotherShirtObject); //expects pass
+// assertObjectsEqual(multiColorShirtObject, anotherMultiColorShirtObject); // expect pass
+// assertObjectsEqual(longSleeveMultiColorShirtObject, longSleeveShirtObject); // expect fail
+// assertObjectsEqual(shirtObject, longSleeveShirtObject); // expect fail
 
 module.exports = assertObjectsEqual;
