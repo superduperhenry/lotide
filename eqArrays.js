@@ -1,5 +1,8 @@
 //Implement a function eqArrays which takes in two arrays and returns true or false, based on a perfect match.
 const eqArrays = (arr1, arr2) => {
+  if (!Array.isArray(arr1) || !Array.isArray(arr1)) {
+    return false;
+  }
   if (arr1.length !== arr2.length) {
     return false;
   }
